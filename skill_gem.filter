@@ -1,0 +1,657 @@
+#===============================================================================================================
+# [[0099]] Skill Gems Loot Filter
+# by Michaelangel007
+# https://github.com/Michaelangel007/poe_skill_gem_loot_filter
+# Last updated Nov 28, 2021.
+#===============================================================================================================
+#
+# Instructions:
+#
+#   Tired of seeing gems you already have clutter up your loot?
+#   Remove the '#' at the beginning of the line for that gem to hide it.
+#   (You can still see all gems by holding down ALT.)
+#
+# NOTE: You should always hide at _least one_ gem otherwise ALL gems
+#       will be hidden!  Default is "Double Strike" since it is common.
+#
+Hide
+	Class Gems
+
+	#------------------------------------
+	#             Red active             
+	#------------------------------------
+#	BaseType "Absolution"
+#	BaseType "Ancestral Cry"
+#	BaseType "Ancestral Protector"
+#	BaseType "Ancestral Warchief"
+#	BaseType "Anger"
+#	BaseType "Animate Guardian"
+
+#	BaseType "Battlemage's Cry"
+#	BaseType "Berserk"
+#	BaseType "Bladestorm"
+#	BaseType "Blood and Sand"
+
+#	BaseType "Chain Hook"
+#	BaseType "Cleave"
+#	BaseType "Consecrated Path"
+#	BaseType "Corrupting Fever"
+
+#	BaseType "Decoy Totem"
+#	BaseType "Defiance Banner"
+#	BaseType "Determination"
+#	BaseType "Devouring Totem"
+#	BaseType "Dominating Blow"
+#	BaseType "Dread Banner"
+
+#	BaseType "Earthquake"
+#	BaseType "Earthshatter"
+#	BaseType "Enduring Cry"
+#	BaseType "Exsanguinate"
+
+#	BaseType "Flame Link"
+#	BaseType "Flesh and Stone"
+
+#	BaseType "General's Cry"
+#	BaseType "Glacial Hammer"
+#	BaseType "Ground Slam"
+
+#	BaseType "Heavy Strike"
+#	BaseType "Herald of Ash"
+#	BaseType "Herald of Purity"
+#	BaseType "Holy Flame Totem"
+
+#	BaseType "Ice Crash"
+#	BaseType "Immortal Call"
+#	BaseType "Infernal Blow"
+#	BaseType "Infernal Cry"
+#	BaseType "Intimidating Cry"
+
+#	BaseType "Leap Slam"
+
+#	BaseType "Molten Shell"
+#	BaseType "Molten Strike"
+
+#	BaseType "Perforate"
+#	BaseType "Petrified Blood"
+#	BaseType "Pride"
+#	BaseType "Protective Link"
+#	BaseType "Punishment"
+#	BaseType "Purity of Fire"
+
+#	BaseType "Rage Vortex"
+#	BaseType "Rallying Cry"
+#	BaseType "Reap"
+#	BaseType "Reckoning"
+#	BaseType "Rejuvenation Totem"
+
+#	BaseType "Searing Bond"
+#	BaseType "Seismic Cry"
+#	BaseType "Shield Charge"
+#	BaseType "Shield Crush"
+#	BaseType "Shockwave Totem"
+#	BaseType "Smite"
+#	BaseType "Static Strike"
+#	BaseType "Steelskin"
+#	BaseType "Summon Flame Golem"
+#	BaseType "Summon Stone Golem"
+#	BaseType "Sunder"
+#	BaseType "Sweep"
+
+#	BaseType "Tectonic Slam"
+
+#	BaseType "Vengeance"
+#	BaseType "Vigilant Strike"
+#	BaseType "Vitality"
+#	BaseType "Vulnerability"
+
+#	BaseType "War Banner"
+#	BaseType "Warlord's Mark"
+
+	#------------------------------------
+	#            Red support             
+	#------------------------------------
+#	BaseType "Added Fire Damage Support"
+#	BaseType "Ancestral Call Support"
+#	BaseType "Arrogance Support"
+#	BaseType "Awakened Added Fire Damage Support"
+#	BaseType "Awakened Ancestral Call Support"
+#	BaseType "Awakened Brutality Support"
+#	BaseType "Awakened Burning Damage Support"
+#	BaseType "Awakened Elemental Damage With Attacks Support"
+#	BaseType "Awakened Fire Penetration Support"
+#	BaseType "Awakened Generosity Support"
+#	BaseType "Awakened Melee Physical Damage Support"
+#	BaseType "Awakened Melee Splash Support"
+#	BaseType "Awakened Multistrike Support"
+
+#	BaseType "Ballista Totem Support"
+#	BaseType "Behead Support"
+#	BaseType "Bloodlust Support"
+#	BaseType "Bloodthirst Support"
+#	BaseType "Brutality Support"
+#	BaseType "Burning Damage Support"
+
+#	BaseType "Cast on Melee Kill Support"
+#	BaseType "Cast when Damage Taken Support"
+#	BaseType "Chance to Bleed Support"
+#	BaseType "Cold to Fire Support"
+#	BaseType "Cruelty Support"
+
+#	BaseType "Damage on Full Life Support"
+
+#	BaseType "Earthbreaker Support"
+#	BaseType "Elemental Damage with Attacks Support"
+#	BaseType "Empower Support"
+#	BaseType "Endurance Charge on Melee Stun Support"
+
+#	BaseType "Fire Penetration Support"
+#	BaseType "Fist of War Support"
+#	BaseType "Fortify Support"
+
+#	BaseType "Generosity Support"
+
+#	BaseType "Increased Duration Support"
+#	BaseType "Inspiration Support"        # renamed from: Blood Magic
+#	BaseType "Iron Grip Support"
+#	BaseType "Iron Will Support"
+
+#	BaseType "Knockback Support"
+
+#	BaseType "Less Duration Support"
+#	BaseType "Life Gain on Hit Support"
+#	BaseType "Life Leech Support"
+#	BaseType "Lifetap Support"
+
+#	BaseType "Maim Support"
+#	BaseType "Melee Physical Damage Support"
+#	BaseType "Melee Splash Support"
+#	BaseType "Multiple Totems Support"
+#	BaseType "Multistrike Support"
+
+#	BaseType "Pulverise Support"
+
+#	BaseType "Rage Support"
+#	BaseType "Ruthless Support"
+
+#	BaseType "Shockwave Support"
+#	BaseType "Spell Totem Support"
+#	BaseType "Stun Support"
+
+#	BaseType "Urgent Orders Support"
+
+	#------------------------------------
+	#              Red vaal              
+	#------------------------------------
+#	BaseType "Vaal Ancestral Warchief"
+#	BaseType "Vaal Earthquake"
+#	BaseType "Vaal Glacial Hammer"
+#	BaseType "Vaal Ground Slam"
+#	BaseType "Vaal Immortal Call"
+#	BaseType "Vaal Impurity of Fire"
+#	BaseType "Vaal Molten Shell"
+
+
+	#------------------------------------
+	#            Green active            
+	#------------------------------------
+#	BaseType "Ambush"
+#	BaseType "Animate Weapon"
+#	BaseType "Arctic Armour"
+#	BaseType "Artillery Ballista"
+
+#	BaseType "Barrage"
+#	BaseType "Bear Trap"
+#	BaseType "Blade Blast"
+#	BaseType "Blade Flurry"
+#	BaseType "Blade Trap"
+#	BaseType "Blade Vortex"
+#	BaseType "Bladefall"
+#	BaseType "Blast Rain"
+#	BaseType "Blink Arrow"
+#	BaseType "Blood Rage"
+#	BaseType "Burning Arrow"
+
+#	BaseType "Caustic Arrow"
+#	BaseType "Charged Dash"
+#	BaseType "Cobra Lash"
+#	BaseType "Cremation"
+#	BaseType "Cyclone"
+
+#	BaseType "Dash"
+#	BaseType "Desecrate"
+#	BaseType "Detonate Dead"
+	BaseType "Double Strike"
+#	BaseType "Dual Strike"
+
+#	BaseType "Elemental Hit"
+#	BaseType "Ensnaring Arrow"
+#	BaseType "Ethereal Knives"
+#	BaseType "Explosive Arrow"
+#	BaseType "Explosive Concoction"
+#	BaseType "Explosive Trap"
+
+#	BaseType "Fire Trap"
+#	BaseType "Flamethrower Trap"
+#	BaseType "Flicker Strike"
+#	BaseType "Frenzy"
+#	BaseType "Frost Blades"
+
+#	BaseType "Galvanic Arrow"
+#	BaseType "Grace"
+
+#	BaseType "Haste"
+#	BaseType "Hatred"
+#	BaseType "Herald of Agony"
+#	BaseType "Herald of Ice"
+
+#	BaseType "Ice Shot"
+#	BaseType "Ice Trap"
+#	BaseType "Intuitive Link"
+
+#	BaseType "Lacerate"
+#	BaseType "Lancing Steel"
+#	BaseType "Lightning Arrow"
+#	BaseType "Lightning Strike"
+
+#	BaseType "Mirror Arrow"
+
+#	BaseType "Pestilent Strike"
+#	BaseType "Phase Run"
+#	BaseType "Plague Bearer"
+#	BaseType "Poacher's Mark"
+#	BaseType "Poisonous Concoction"
+#	BaseType "Precision"
+#	BaseType "Puncture"
+#	BaseType "Purity of Ice"
+
+#	BaseType "Rain of Arrows"
+#	BaseType "Reave"
+#	BaseType "Riposte"
+
+#	BaseType "Scourge Arrow"
+#	BaseType "Seismic Trap"
+#	BaseType "Shattering Steel"
+#	BaseType "Shrapnel Ballista"
+#	BaseType "Siege Ballista"
+#	BaseType "Smoke Mine"
+#	BaseType "Sniper's Mark"
+#	BaseType "Spectral Helix"
+#	BaseType "Spectral Shield Throw"
+#	BaseType "Spectral Throw"
+#	BaseType "Split Arrow"
+#	BaseType "Splitting Steel"
+#	BaseType "Storm Rain"
+#	BaseType "Summon Ice Golem"
+
+#	BaseType "Temporal Chains"
+#	BaseType "Temporal Rift"
+#	BaseType "Tornado"
+#	BaseType "Tornado Shot"
+#	BaseType "Toxic Rain"
+
+#	BaseType "Unearth"
+
+#	BaseType "Vampiric Link"
+#	BaseType "Venom Gyre"
+#	BaseType "Viper Strike"
+#	BaseType "Volatile Dead"
+
+#	BaseType "Whirling Blades"
+#	BaseType "Wild Strike"
+#	BaseType "Withering Step"
+
+	#------------------------------------
+	#           Green support            
+	#------------------------------------
+#	BaseType "Added Cold Damage Support"
+#	BaseType "Additional Accuracy Support"
+#	BaseType "Advanced Traps Support"
+#	BaseType "Arrow Nova Support"
+#	BaseType "Awakened Added Cold Damage Support"
+#	BaseType "Awakened Arrow Nova Support"
+#	BaseType "Awakened Cast On Critical Strike Support"
+#	BaseType "Awakened Chain Support"
+#	BaseType "Awakened Cold Penetration Support"
+#	BaseType "Awakened Deadly Ailments Support"
+#	BaseType "Awakened Fork Support"
+#	BaseType "Awakened Greater Multiple Projectiles Support"
+#	BaseType "Awakened Swift Affliction Support"
+#	BaseType "Awakened Vicious Projectiles Support"
+#	BaseType "Awakened Void Manipulation Support"
+
+#	BaseType "Barrage Support"
+#	BaseType "Blind Support"
+#	BaseType "Block Chance Reduction Support"
+
+#	BaseType "Cast On Critical Strike Support"
+#	BaseType "Cast on Death Support"
+#	BaseType "Chain Support"
+#	BaseType "Chance to Flee Support"
+#	BaseType "Chance to Poison Support"
+#	BaseType "Charged Traps Support"
+#	BaseType "Close Combat Support"
+#	BaseType "Cluster Traps Support"
+#	BaseType "Cold Penetration Support"
+#	BaseType "Critical Strike Affliction Support"
+#	BaseType "Culling Strike Support"
+
+#	BaseType "Deadly Ailments Support"
+
+#	BaseType "Enhance Support"
+
+#	BaseType "Faster Attacks Support"
+#	BaseType "Faster Projectiles Support"
+#	BaseType "Focused Ballista Support"
+#	BaseType "Fork Support"
+
+#	BaseType "Greater Multiple Projectiles Support"
+#	BaseType "Greater Volley Support"
+
+#	BaseType "Hypothermia Support"
+
+#	BaseType "Ice Bite Support"
+#	BaseType "Impale Support"
+
+#	BaseType "Lesser Multiple Projectiles Support"
+
+#	BaseType "Mana Leech Support"
+#	BaseType "Mirage Archer Support"
+#	BaseType "Multiple Traps Support"
+
+#	BaseType "Nightblade Support"
+
+#	BaseType "Onslaught Support"
+
+#	BaseType "Pierce Support"
+#	BaseType "Point Blank Support"
+
+#	BaseType "Second Wind Support"
+#	BaseType "Slower Projectiles Support"
+#	BaseType "Swift Affliction Support"
+#	BaseType "Swift Assembly Support"
+
+#	BaseType "Trap and Mine Damage Support"
+#	BaseType "Trap Support"
+
+#	BaseType "Vicious Projectiles Support"
+#	BaseType "Vile Toxins Support"
+#	BaseType "Void Manipulation Support"
+#	BaseType "Volley Support"
+
+#	BaseType "Withering Touch Support"
+
+	#------------------------------------
+	#             Green vaal             
+	#------------------------------------
+#	BaseType "Vaal Blade Vortex"
+#	BaseType "Vaal Burning Arrow"
+#	BaseType "Vaal Cyclone"
+#	BaseType "Vaal Detonate Dead"
+#	BaseType "Vaal Double Strike"
+#	BaseType "Vaal Grace"
+#	BaseType "Vaal Haste"
+#	BaseType "Vaal Impurity of Ice"
+#	BaseType "Vaal Lightning Strike"
+#	BaseType "Vaal Rain of Arrows"
+#	BaseType "Vaal Reave"
+#	BaseType "Vaal Spectral Throw"
+
+
+	#------------------------------------
+	#            Blue active             
+	#------------------------------------
+#	BaseType "Arc"
+#	BaseType "Arcane Cloak"
+#	BaseType "Arcanist Brand"
+#	BaseType "Armageddon Brand"
+#	BaseType "Assassin's Mark"
+
+#	BaseType "Ball Lightning"
+#	BaseType "Bane"
+#	BaseType "Blazing Salvo"
+#	BaseType "Blight"
+#	BaseType "Bodyswap"
+#	BaseType "Bone Offering"
+#	BaseType "Brand Recall"
+
+#	BaseType "Clarity"
+#	BaseType "Cold Snap"
+#	BaseType "Conductivity"
+#	BaseType "Contagion"
+#	BaseType "Conversion Trap"
+#	BaseType "Convocation"
+#	BaseType "Crackling Lance"
+#	BaseType "Creeping Frost"
+
+#	BaseType "Dark Pact"
+#	BaseType "Despair"
+#	BaseType "Destructive Link"
+#	BaseType "Discharge"
+#	BaseType "Discipline"
+#	BaseType "Divine Ire"
+
+#	BaseType "Elemental Weakness"
+#	BaseType "Energy Blade"
+#	BaseType "Enfeeble"
+#	BaseType "Essence Drain"
+#	BaseType "Eye of Winter"
+
+#	BaseType "Fireball"
+#	BaseType "Firestorm"
+#	BaseType "Flame Dash"
+#	BaseType "Flame Surge"
+#	BaseType "Flame Wall"
+#	BaseType "Flameblast"
+#	BaseType "Flammability"
+#	BaseType "Flesh Offering"
+#	BaseType "Forbidden Rite"
+#	BaseType "Freezing Pulse"
+#	BaseType "Frost Bomb"
+#	BaseType "Frost Shield"
+#	BaseType "Frost Wall"
+#	BaseType "Frostbite"
+#	BaseType "Frostblink"
+#	BaseType "Frostbolt"
+
+#	BaseType "Glacial Cascade"
+
+#	BaseType "Herald of Thunder"
+#	BaseType "Hexblast"
+#	BaseType "Hydrosphere"
+
+#	BaseType "Ice Nova"
+#	BaseType "Ice Spear"
+#	BaseType "Icicle Mine"
+#	BaseType "Incinerate"
+
+#	BaseType "Kinetic Blast"
+#	BaseType "Kinetic Bolt"
+
+#	BaseType "Lightning Spire Trap"
+#	BaseType "Lightning Tendrils"
+#	BaseType "Lightning Trap"
+#	BaseType "Lightning Warp"
+
+#	BaseType "Malevolence"
+#	BaseType "Manabond"
+
+#	BaseType "Orb of Storms"
+
+#	BaseType "Penance Brand"
+#	BaseType "Power Siphon"
+#	BaseType "Purifying Flame"
+#	BaseType "Purity of Elements"
+#	BaseType "Purity of Lightning"
+#	BaseType "Pyroclast Mine"
+
+#	BaseType "Raise Spectre"
+#	BaseType "Raise Zombie"
+#	BaseType "Righteous Fire"
+#	BaseType "Rolling Magma"        # renamed from: Magma Orb
+
+#	BaseType "Scorching Ray"
+#	BaseType "Shock Nova"
+#	BaseType "Sigil of Power"
+#	BaseType "Siphoning Trap"
+#	BaseType "Soul Link"
+#	BaseType "Soulrend"
+#	BaseType "Spark"
+#	BaseType "Spellslinger"
+#	BaseType "Spirit Offering"
+#	BaseType "Storm Brand"
+#	BaseType "Storm Burst"
+#	BaseType "Storm Call"
+#	BaseType "Stormbind"
+#	BaseType "Stormblast Mine"
+#	BaseType "Summon Carrion Golem"
+#	BaseType "Summon Chaos Golem"
+#	BaseType "Summon Holy Relic"
+#	BaseType "Summon Lightning Golem"
+#	BaseType "Summon Raging Spirit"
+#	BaseType "Summon Reaper"
+#	BaseType "Summon Skeletons"
+#	BaseType "Summon Skitterbots"
+
+#	BaseType "Tempest Shield"
+
+#	BaseType "Void Sphere"
+#	BaseType "Voltaxic Burst"
+#	BaseType "Vortex"
+
+#	BaseType "Wave of Conviction"
+#	BaseType "Winter Orb"
+#	BaseType "Wintertide Brand"
+#	BaseType "Wither"
+#	BaseType "Wrath"
+
+#	BaseType "Zealotry"
+
+
+	# === Blue support ===
+#	BaseType "Added Chaos Damage Support"
+#	BaseType "Added Lightning Damage Support"
+#	BaseType "Arcane Surge Support"
+#	BaseType "Archmage Support"
+#	BaseType "Awakened Added Chaos Damage Support"
+#	BaseType "Awakened Added Lightning Damage Support"
+#	BaseType "Awakened Blasphemy Support"
+#	BaseType "Awakened Cast While Channelling Support"
+#	BaseType "Awakened Controlled Destruction Support"
+#	BaseType "Awakened Elemental Focus Support"
+#	BaseType "Awakened Hextouch Support"
+#	BaseType "Awakened Increased Area Of Effect Support"
+#	BaseType "Awakened Lightning Penetration Support"
+#	BaseType "Awakened Minion Damage Support"
+#	BaseType "Awakened Spell Cascade Support"
+#	BaseType "Awakened Spell Echo Support"
+#	BaseType "Awakened Unbound Ailments Support"
+#	BaseType "Awakened Unleash Support"
+
+#	BaseType "Blasphemy Support"
+#	BaseType "Blastchain Mine Support"
+#	BaseType "Bonechill Support"
+
+#	BaseType "Cast when Stunned Support"
+#	BaseType "Cast while Channelling Support"
+#	BaseType "Charged Mines Support"
+#	BaseType "Combustion Support"
+#	BaseType "Concentrated Effect Support"
+#	BaseType "Controlled Destruction Support"
+
+#	BaseType "Decay Support"
+
+#	BaseType "Efficacy Support"
+#	BaseType "Elemental Army Support"
+#	BaseType "Elemental Focus Support"
+#	BaseType "Elemental Penetration Support"
+#	BaseType "Elemental Proliferation Support"
+#	BaseType "Energy Leech Support"
+#	BaseType "Enlighten Support"
+
+#	BaseType "Faster Casting Support"
+#	BaseType "Feeding Frenzy Support"
+
+#	BaseType "Hextouch Support"
+#	BaseType "High-Impact Mine Support"
+
+#	BaseType "Ignite Proliferation Support"
+#	BaseType "Immolate Support"
+#	BaseType "Impending Doom Support"
+#	BaseType "Increased Area of Effect Support"
+#	BaseType "Increased Critical Damage Support"
+#	BaseType "Increased Critical Strikes Support"
+#	BaseType "Infernal Legion Support"
+#	BaseType "Infused Channelling Support"
+#	BaseType "Innervate Support"
+#	BaseType "Intensify Support"
+#	BaseType "Item Rarity Support"
+
+#	BaseType "Lightning Penetration Support"
+
+#	BaseType "Meat Shield Support"
+#	BaseType "Minefield Support"
+#	BaseType "Minion Damage Support"
+#	BaseType "Minion Life Support"
+#	BaseType "Minion Speed Support"
+
+#	BaseType "Physical to Lightning Support"
+#	BaseType "Pinpoint Support"
+#	BaseType "Power Charge On Critical Support"
+#	BaseType "Predator Support"
+
+#	BaseType "Spell Cascade Support"
+#	BaseType "Spell Echo Support"
+#	BaseType "Summon Phantasm Support"
+#	BaseType "Swiftbrand Support"
+
+#	BaseType "Trinity Support"
+
+#	BaseType "Unbound Ailments Support"
+#	BaseType "Unleash Support"
+
+	#------------------------------------
+	#             Blue vaal              
+	#------------------------------------
+#	BaseType "Vaal Arc"
+#	BaseType "Vaal Blight"
+#	BaseType "Vaal Clarity"
+#	BaseType "Vaal Cold Snap"
+#	BaseType "Vaal Discipline"
+#	BaseType "Vaal Fireball"
+#	BaseType "Vaal Flameblast"
+#	BaseType "Vaal Ice Nova"
+#	BaseType "Vaal Impurity of Lightning"
+#	BaseType "Vaal Lightning Trap"
+#	BaseType "Vaal Lightning Warp"
+#	BaseType "Vaal Power Siphon"
+#	BaseType "Vaal Righteous Fire"
+#	BaseType "Vaal Spark"
+#	BaseType "Vaal Storm Call"
+#	BaseType "Vaal Summon Skeletons"
+
+	#------------------------------------
+	#            Misc active             
+	#------------------------------------
+	# NOTE: You probably never want to hide these
+#	BaseType "Detonate Mines"
+#	BaseType "Portal"
+
+	#------------------------------------
+	#             Misc vaal              
+	#------------------------------------
+#	BaseType "Vaal Breach"
+
+
+# References
+# [3.16] 302 active skill gems + 180 support skill gems = 482 gems
+#
+# Gem List
+# https://www.poewiki.net/wiki/List_of_skill_gems_by_gem_tag
+# https://pathofexile.gamepedia.com/Active_skill_gem
+#
+# Support Gem List
+# https://www.poewiki.net/wiki/Support_gem
+# https://pathofexile.gamepedia.com/Support_Skill_Gems
+#
+# https://www.poewiki.net/wiki/Vaal_skill
